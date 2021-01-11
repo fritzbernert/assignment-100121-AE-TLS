@@ -49,7 +49,7 @@ function draw() {
   player.move();
   player.draw();
   if(player.enemyCollision()){
-    //gameEnd();
+    gameEnd();
   }
 
   
