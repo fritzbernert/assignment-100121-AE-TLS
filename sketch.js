@@ -49,6 +49,7 @@ function draw() {
   player.move();
   player.draw();
   if(player.enemyCollision()){
+    console.log("enemy collision");
     gameEnd();
   }
 
